@@ -1,0 +1,1 @@
+puts n % 3 == 0? "fizz" : (n % 5 -- 0? "buzz" : n)

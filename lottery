@@ -1,0 +1,20 @@
+class Entrants
+attr_reader :scientist
+def initialize
+end
+end
+class welcome_message
+def play
+msg = "Welcome to the lottery!"
+puts msg
+puts ""
+
+
+
+name1 = Name.new("Richard Feynman")
+name2 = Name.new("Isaac Newton")
+name3 = Name.new("Albert Einstein")
+name4 = Name.new("Paul Dirac")
+name5 = Name.new ("")
+
+game = LotteryGame.new([name1, name2, name3, name4, name5])
